@@ -1,1 +1,17 @@
-# CaseStudies
+# Case Studies (DS 7333)
+
+Contributers: David Grijalva, Nicole Norelli, & Nick Yu
+
+Case Study 1: This deliverable investigated and predicted superconducting temperatures for a variety of materials. Linear regression with regularization was the primary statistical method used. A comparison of different models and their performance resulted in a recommendation of a combined model that used L1 regularization for feature selection followed by L2 regularization to fit the model. Feature importance, highlighting the most important features contributing to the critical temperature for superconducting, was then discussed.  
+
+Case Study 2:  This deliverable investigated and predicted diabetes patients for hospital readmission. Different aspects of each patient's visit were collected and logistic regression with regularization was the primary machine learning method used. Due to the nature of the area, missing data and ethical concerns were addressed. Cross validation was utilized for model selection and model evaluation between different tuning parameters. Feature importance, highlighting the most important features contributing to each target category, as well as results and benefits of the prediction model were later discussed.  
+
+Case Study 3: This deliverable investigated and predicted Spam and non-Spam emails. Feature extraction via Count Vectorizer and Term Frequency Inverse Document Frequency (TF-IDF) Vectorizer was performed. Naive Bayes was the primary statistical method used for classification. Additionally, KMeans clustering to create new features was explored as a method to improve classification results. Ultimately, both models using TF-IDF Vectorizer alone and the TF-IDF Vectorizer with an additional KMeans clustering feature were recommended to IT for final decision.  
+
+Case Study 4: The following deliverable investigated and predicted a company's bankruptcy based on a variety of financial factors. The predictive models used and explored were Random Forest and XGBoost. A comparison of different models and their performance resulted in a recommendation of using the XGBoost in favor of the Random Forest.  
+
+Case Study 5: This deliverable investigated and predicted whether to allow, deny, or drop access to incoming requests for a large company with many firewall interactions. SVC (Support Vector Classifier) and SGD (Stochastic Gradient Descent) using 'log' loss were the primary machine learning methods used for classification. Both methods generated superb prediction, precision, and recall for each class; however, SGD was much faster to train in comparison.  
+
+Case Study 6: This deliverable investigated and predicted the existance of a new particle. A dense neural network was the machine learning method used for classification. Multiple networks were trained, each with similar precision, recall, and F1 scores. Model 2, with four hidden layers and two drop-out layers, performed best overall; however, it had the longest training time. Model 1, with two hidden layers, had the quickest training with results that were nearly as accurate. Ultimate model choice will depend on the client's priorities.  
+
+Case Study 7: This deliverable focuses on building a predictive model with the goal of reducing a company's monetary loss due to incorrect predictions. In this case study, the team trained and explored 6 different predictive models to achieve the company's goal.
